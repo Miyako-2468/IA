@@ -6,7 +6,7 @@
   <style>
     body {
       font-family: 'Georgia', serif;
-      background: linear-gradient(to bottom,#ADD8E6 , black);
+      background: linear-gradient(to bottom, #ADD8E6, black);
       color: #f2f2f2;
       text-align: center;
       padding: 20px;
@@ -23,10 +23,18 @@
       width: 90%;
       margin: 20px auto;
       border-collapse: collapse;
+      background-color: #222;
     }
     th, td {
       border: 1px solid #ccc;
       padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #444;
+    }
+    td {
+      background-color: #333;
     }
     audio {
       margin: 20px auto;
@@ -39,6 +47,19 @@
     marquee {
       margin-bottom: 20px;
     }
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    img {
+      max-width: 500px;
+      height: auto;
+      margin: 20px auto;
+      display: block;
+    }
   </style>
   <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
 </head>
@@ -46,37 +67,28 @@
 <body>
 
   <marquee behavior="scroll" direction="left" scrollamount="8">
-    <h1>Inteligencia Artificial </h1>
+    <h1>Inteligencia Artificial</h1>
   </marquee>
 
   <h2>¿Qué es la inteligencia artificial?</h2>
-  <p>La inteligencia artificial (IA) es la simulación de procesos de inteligencia humana mediante sistemas computacionales.
- Esto incluye el aprendizaje automático, el reconocimiento de patrones, la toma de decisiones autónoma y mucho más. 
-Es un campo de la informática que se enfoca en crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana, como el aprendizaje, el razonamiento y la percepción.</p>
+  <p>La inteligencia artificial (IA) es la simulación de procesos de inteligencia humana mediante sistemas computacionales. Esto incluye el aprendizaje automático, el reconocimiento de patrones, la toma de decisiones autónoma y mucho más.</p>
 
-  <div>
-    <img src="‪C:\Users\MOL-18\Desktop\ia.png" width="500">
-  </div>
+  <img src="imagenes/ia.png" alt="Imagen representativa de IA">
 
- <h2>¿Cómo puede afectar a la humanidad?</h2>
-  <p>La IA no sólo incrementa la productividad a nivel de maquinaria, sino que también hace que incremente la productividad de los trabajadores y 
-la calidad del trabajo que realizan.
- El poder gozar de mayor información, les permite tener una visión más focalizada de su trabajo y tomar mejores decisiones. </p>
+  <h2>¿Cómo puede afectar a la humanidad?</h2>
+  <p>La IA no solo incrementa la productividad a nivel de maquinaria, sino que también mejora la eficiencia de los trabajadores y la calidad de sus decisiones mediante el acceso a información más precisa y focalizada.</p>
 
   <h2>¿Qué riesgos representa?</h2>
   <ul style="text-align:left; display:inline-block;">
-    <li><strong>Desinformación:</strong> generación de noticias falsas, imágenes o audios falsificados (deepfakes).</li>
-    <li><strong>Vigilancia masiva:</strong> uso de algoritmos para rastrear y monitorear a las personas sin consentimiento.</li>
-    <li><strong>Discriminación algorítmica:</strong> decisiones sesgadas por datos de entrenamiento defectuosos o parciales.</li>
-    <li><strong>Pérdida de empleos:</strong> automatización de tareas que antes realizaban seres humanos.</li>
-    <li><strong>Armas autónomas:</strong> desarrollo de sistemas militares sin control humano directo.</li>
-    <li><strong>Deshumanización:</strong> dependencia excesiva en sistemas sin empatía.</li>
+    <li><strong>Desinformación:</strong> generación de noticias falsas e imágenes manipuladas.</li>
+    <li><strong>Vigilancia masiva:</strong> monitoreo sin consentimiento mediante algoritmos.</li>
+    <li><strong>Discriminación algorítmica:</strong> sesgos por datos de entrenamiento deficientes.</li>
+    <li><strong>Pérdida de empleos:</strong> automatización de tareas humanas.</li>
+    <li><strong>Armas autónomas:</strong> sistemas sin control humano directo.</li>
+    <li><strong>Deshumanización:</strong> dependencia excesiva en tecnologías sin empatía.</li>
   </ul>
 
- <div>
-    <img src="‪C:\Users\MOL-18\Desktop\usoia.png" width="500">
-  </div>
-
+  <img src="imagenes/usoia.png" alt="Ejemplos de uso de IA">
 
   <h2>Casos conocidos</h2>
   <table>
@@ -87,10 +99,13 @@ la calidad del trabajo que realizan.
     <tr><td>Reconocimiento facial</td><td>Errores de identificación y prejuicios raciales</td></tr>
     <tr><td>Plataformas sociales</td><td>Difusión de fake news y manipulación de opiniones</td></tr>
     <tr><td>Chatbots maliciosos</td><td>Propagación de discursos de odio o información peligrosa</td></tr>
+    <tr><td>Sistemas de contratación</td><td>Discriminación por género o procedencia</td></tr>
+    <tr><td>IA en justicia penal</td><td>Sesgos en recomendaciones de sentencias</td></tr>
+    <tr><td>Modelos generativos</td><td>Creación de contenidos engañosos o dañinos</td></tr>
   </table>
 
   <h2>Sonido Ambiente</h2>
-  <audio controls autoplay>
+  <audio controls>
     <source src="musica_suspenso_ia.mp3" type="audio/mpeg">
     Tu navegador no soporta la reproducción de audio.
   </audio>
